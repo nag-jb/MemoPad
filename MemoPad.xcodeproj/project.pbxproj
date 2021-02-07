@@ -15,6 +15,7 @@
 		1A790DC625D051F700961982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A790DC425D051F700961982 /* LaunchScreen.storyboard */; };
 		1A790DD125D051F800961982 /* MemoPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A790DD025D051F800961982 /* MemoPadTests.swift */; };
 		1A790DDC25D051F800961982 /* MemoPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A790DDB25D051F800961982 /* MemoPadUITests.swift */; };
+		1A790DED25D0526E00961982 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A790DEC25D0526E00961982 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1A790DD725D051F800961982 /* MemoPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A790DDB25D051F800961982 /* MemoPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPadUITests.swift; sourceTree = "<group>"; };
 		1A790DDD25D051F800961982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A790DEC25D0526E00961982 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				1A790DC225D051F700961982 /* Assets.xcassets */,
 				1A790DC425D051F700961982 /* LaunchScreen.storyboard */,
 				1A790DC725D051F700961982 /* Info.plist */,
+				1A790DEC25D0526E00961982 /* MemoViewController.swift */,
 			);
 			path = MemoPad;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A790DED25D0526E00961982 /* MemoViewController.swift in Sources */,
 				1A790DBE25D051F500961982 /* ViewController.swift in Sources */,
 				1A790DBA25D051F500961982 /* AppDelegate.swift in Sources */,
 				1A790DBC25D051F500961982 /* SceneDelegate.swift in Sources */,
@@ -436,7 +440,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7W99LDKFYV;
 				INFOPLIST_FILE = MemoPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,6 +450,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.tatsui.nagiwo.MemoPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,7 +461,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7W99LDKFYV;
 				INFOPLIST_FILE = MemoPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +471,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.tatsui.nagiwo.MemoPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -473,6 +483,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7W99LDKFYV;
 				INFOPLIST_FILE = MemoPadTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -494,6 +505,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7W99LDKFYV;
 				INFOPLIST_FILE = MemoPadTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -514,6 +526,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7W99LDKFYV;
 				INFOPLIST_FILE = MemoPadUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -533,6 +546,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7W99LDKFYV;
 				INFOPLIST_FILE = MemoPadUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
