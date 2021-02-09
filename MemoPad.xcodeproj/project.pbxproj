@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A290B9225D2E049004B30E3 /* ghibli_castle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A290B9125D2E049004B30E3 /* ghibli_castle.png */; };
 		1A790DBA25D051F500961982 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A790DB925D051F500961982 /* AppDelegate.swift */; };
 		1A790DBC25D051F500961982 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A790DBB25D051F500961982 /* SceneDelegate.swift */; };
 		1A790DBE25D051F500961982 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A790DBD25D051F500961982 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A290B9125D2E049004B30E3 /* ghibli_castle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghibli_castle.png; sourceTree = "<group>"; };
 		1A790DB625D051F500961982 /* MemoPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A790DB925D051F500961982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A790DBB25D051F500961982 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		1A790DB825D051F500961982 /* MemoPad */ = {
 			isa = PBXGroup;
 			children = (
+				1A290B9125D2E049004B30E3 /* ghibli_castle.png */,
 				1A790DB925D051F500961982 /* AppDelegate.swift */,
 				1A790DBB25D051F500961982 /* SceneDelegate.swift */,
 				1A790DBD25D051F500961982 /* ViewController.swift */,
@@ -236,6 +239,7 @@
 			files = (
 				1A790DC625D051F700961982 /* LaunchScreen.storyboard in Resources */,
 				1A790DC325D051F700961982 /* Assets.xcassets in Resources */,
+				1A290B9225D2E049004B30E3 /* ghibli_castle.png in Resources */,
 				1A790DC125D051F500961982 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
